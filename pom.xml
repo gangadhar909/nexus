@@ -59,13 +59,13 @@ http://<settings>
 </server>
 </servers>
 </settings>
-http://52.91.26.105:8081/repository/snapshot/
+//52.91.26.105:8081/repository/package/
 </url>
 </repository>
 <snapshotRepository>	
 <id>snapshots</id>
 <url>
-http://3.142.69.234:8081/repository/snapshots/
+http://52.91.26.105:8081/repository/snapshot/
 </url>
 </snapshotRepository>
 </distributionManagement>
