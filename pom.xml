@@ -1,5 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/3.3.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/3.3.9 http://maven.apache.org/maven-v3_3_9.xsd">
-<modelVersion>3.3.9</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<modelVersion>4.0.0</modelVersion>
 <groupId>com.mkyong</groupId>
 <artifactId>NumberGenerator</artifactId>
 <packaging>jar</packaging>
@@ -44,21 +44,6 @@
 <repository>
 <id>package</id>
 <url>
-http://<settings>
-<servers>
-<server>
-<id>package</id>
-<username>admin</username>
-<password>admin123</password>
-</server>
-
-<server>
-<id>snapshots</id>
-<username>admin</username>
-<password>admin123</password>
-</server>
-</servers>
-</settings>
 http://35.174.106.136:8081/repository/package/
 </url>
 </repository>
